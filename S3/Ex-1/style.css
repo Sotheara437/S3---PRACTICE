@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .post-card {
+    width: 500px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  .profile-details {
+    flex: 1;
+  }
+  
+  .profile-details h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profile-details span {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  .options {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .post-content {
+    margin-bottom: 15px;
+    font-size: 16px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border: radius 7px; px;
+    }
+    
+  }
+  
+  .post-content p {
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .image-placeholder {
+    background-color: #e4e6eb;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .reaction-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .reaction-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .reaction-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1877f2;
+    font-size: 14px;
+  }
+  
+  .comment-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comment-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+    

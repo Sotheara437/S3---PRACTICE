@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart-container">
+        <div class="cart">
+            <h2>Cart</h2>
+            <div class="cart-item">
+                <img src="shirt.png" alt="T-shirt">
+                <div class="item-details">
+                    <h3>Relaxed Fit T-shirt</h3>
+                    <p>$29.99 <span class="stock in-stock">In Stock</span></p>
+                    <div class="options">
+                        <select>
+                            <option>XL</option>
+                        </select>
+                        <select>
+                            <option>Blue</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="cap.png" alt="Cap">
+                <div class="item-details">
+                    <h3>Nylon Sports Cap</h3>
+                    <p>$10.99 <span class="stock available-soon">Available in 2 days</span></p>
+                    <div class="options">
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="sneaker.png" alt="Sneakers">
+                <div class="item-details">
+                    <h3>Sneakers</h3>
+                    <p>$39.99 <span class="stock out-of-stock">Out of stock</span></p>
+                    <div class="options">
+                        <select>
+                            <option>US 9</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+            
+            <div class="cart-item">
+                <img src="suit.png" alt="Vest">
+                <div class="item-details">
+                    <h3>Slim Fit Suit Vest</h3>
+                    <p>$24.99 <span class="stock in-stock">In Stock</span></p>
+                    <div class="options">
+                        <select>
+                            <option>XL</option>
+                        </select>
+                        <select>
+                            <option>Yellow</option>
+                        </select>
+                        <div class="quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="summary">
+            <h2>Delivery</h2>
+            <div class="delivery">
+                <label><input type="radio" name="delivery" checked> Free</label>
+                <label><input type="radio" name="delivery"> Express: $9.99</label>
+                <p>Delivery date: November 20 2024</p>
+            </div>
+            <div class="promo">
+                <input type="text" placeholder="Promocode">
+                <button>Apply</button>
+                <p>25% off discount</p>
+            </div>
+            <div class="totals">
+                <p>Subtotal <span>$90.25</span></p>
+                <p>Discount (25%) <span>-$14.19</span></p>
+                <p>Delivery <span>$0.00</span></p>
+                <p>Tax <span>$14.00</span></p>
+                <hr>
+                <p class="total">Total <span>76.06$</span></p>
+            </div>
+            <button class="checkout">Proceed to checkout</button>
+            <button class="continue">Continue shopping</button>
+        </div>
+    </div>
+</body>
+</html>
